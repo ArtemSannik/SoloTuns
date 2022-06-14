@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SoloTune</string>
+    <string name="name">Solo Tune</string>
+    <string name="regist">Регистрация</string>
+    <string name="enter">Регистрация</string>
+    <string name="auth">Авторизация</string>
+    <string name="phoneHint">Номер телефона</string>
+    <string name="passwordHint">Введите пароль</string>
+    <string name="nameHint">Введите Имя</string>
+    <string name="contacts">Контакты</string>
+    <string name="about">Про Нас</string>
+</resources>

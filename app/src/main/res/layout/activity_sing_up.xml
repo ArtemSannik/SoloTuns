@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SingUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="15dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/hint_"
+            android:ems="10"
+            android:hint="@string/phoneHint"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:textColor="@color/black"
+            android:textColorHint="#e0e0e0" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/hint_"
+            android:ems="10"
+            android:hint="@string/nameHint"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:maxLength="11"
+            android:textColorHint="#e0e0e0" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/hint_"
+            android:ems="10"
+            android:hint="@string/passwordHint"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:maxLength="15"
+            android:textColorHint="#e0e0e0" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSingIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        android:text="@string/regist"
+        android:textColor="@color/white"
+        app:backgroundTint="#81d4fa" />
+
+    <TextView
+        android:layout_width="283dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Solo Tune"
+        android:textSize="60sp" />
+
+
+</RelativeLayout>

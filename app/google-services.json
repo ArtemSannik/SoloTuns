@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "195893530718",
+    "project_id": "solo-tune",
+    "storage_bucket": "solo-tune.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195893530718:android:996b7a347139d07c8864cf",
+        "android_client_info": {
+          "package_name": "com.example.solotune"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195893530718-3n7mheeaknbgn4kem9fdn7nja4h1aqoi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.solotune",
+            "certificate_hash": "40518001210d007c5f009c8eacc5cad75504882b"
+          }
+        },
+        {
+          "client_id": "195893530718-2pgpqhdchnjsabcdkof3b0amlkih2cng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVUHjZJ3mN3bg-LjdzDIhpamJeIclYZD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195893530718-2pgpqhdchnjsabcdkof3b0amlkih2cng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
